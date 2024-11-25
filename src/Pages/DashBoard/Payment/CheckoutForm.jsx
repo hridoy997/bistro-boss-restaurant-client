@@ -8,6 +8,9 @@ const CheckoutForm = () => {
 
     const handleSubmit = async event => {
         event.preventDefault();
+        if (!stripe || !elements) {
+            
+        };
 
     }
 
