@@ -2,8 +2,8 @@ import React from 'react';
 
 const Secret = () => {
     return (
-        <div>
-            <h2>Secret</h2>
+        <div className="h-screen flex items-center justify-center">
+            <h1 className="text-5xl">Secret</h1>
         </div>
     );
 };
